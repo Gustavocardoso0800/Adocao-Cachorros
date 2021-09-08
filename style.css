@@ -11,7 +11,6 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 
-
 :root {
     --cor01: #1CB7FF;
     --cor02: #2F6DF5;
@@ -20,6 +19,19 @@ html{
     --cor05: #1C0051;
     
 }
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width:10px;
+    height: 10px;
+    }
+::-webkit-scrollbar-track {
+    background: var(--cor02)
+   
+    }
+::-webkit-scrollbar-thumb {
+    background:var(--cor05);
+        }
 
 /*SuperInfo*/
 .super-info-bg {
@@ -170,7 +182,7 @@ html{
 
 .servicos-caixa h2{
     color: #D3D3D3;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 .servicos-nav ul{
@@ -188,4 +200,50 @@ html{
     display: inline-block;
     width: 1em;
     margin-left: -0.5em
+}
+
+/*Galeria*/
+.galeria {
+    background-color: var(--cor0);
+}
+
+.galeria-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.galeria-img {
+    text-align: center;
+    margin: 0 10px 0 10px;
+    width: 400px;
+    height: 300px;
+}
+
+
+/*Contato*/
+.contato {
+    background-color: var(--cor05);
+}
+
+.contato-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.contato-nav {
+    color: #fff;
+}
+
+footer {
+    padding: 10px;
+    background-color: var(--cor02);
+    color: #fff;
+    text-align: center;
 }
