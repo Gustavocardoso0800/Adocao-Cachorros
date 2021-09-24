@@ -42,6 +42,7 @@ html{
 .super-info {
     max-width: 960px;
     margin: 0 auto;
+    padding: 0.6em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -210,8 +211,10 @@ html{
 .galeria-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0 auto;
     max-width: 960px;
+
 }
 
 .galeria-img {
@@ -219,6 +222,10 @@ html{
     margin: 0 10px 0 10px;
     width: 400px;
     height: 300px;
+    
+}
+.galeria-raça {
+    border-radius: 5px;
 }
 
 
